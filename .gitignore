@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+build/
+dist/
 
 # Runtime data and logs (the application recreates the cache as needed)
 /cache/

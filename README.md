@@ -9,7 +9,15 @@
 - 计算区间收益、波动率等分析指标
 - 展示市场择时与图表
 
-## 环境要求
+## 直接下载运行
+
+打开本仓库的 [Releases 页面](https://github.com/devide2352720-boop/fund_analyse/releases)，下载最新版本的 `FundAnalyzer-Windows.zip`，解压后双击 `FundAnalyzer.exe`。发布的程序包包含运行所需组件，使用者无需单独安装 Python。
+
+首次启动需要联网获取基金与指数数据。Windows 可能显示未知发布者提示；只有在确认从本项目的 GitHub Releases 下载后再选择继续运行。
+
+## 从源码运行
+
+### 环境要求
 
 - Windows 10 或更高版本
 - Python 3.10 或更高版本
@@ -54,6 +62,10 @@ python main.py
 ## 说明
 
 本项目用于学习和数据分析，不构成投资建议。历史数据和指标不代表未来表现，请自行核实数据并承担投资决策责任。
+
+## Windows 程序包
+
+推送形如 `v0.1.0` 的版本标签后，GitHub Actions 会在 Windows 环境构建程序，并自动创建对应的 GitHub Release，附上 `FundAnalyzer-Windows.zip`。
 
 ## License
 
