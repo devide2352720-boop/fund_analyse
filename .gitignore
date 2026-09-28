@@ -1,0 +1,20 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime data and logs (the application recreates the cache as needed)
+/cache/
+*.log
+
+# Local configuration and desktop shortcuts
+.env
+*.lnk
+启动基金分析.vbs
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
